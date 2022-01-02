@@ -1,0 +1,4 @@
+service vendor.rpi4gpio_hal_service /vendor/bin/hw/android.hardware.rpi4gpio@1.0-service
+    class hal
+    user system
+    group system

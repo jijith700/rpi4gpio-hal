@@ -1,0 +1,14 @@
+package android.hardware.rpi4gpio@1.0;
+
+interface IRpi4Gpio {
+
+  //get led status 
+  get() generates (LedStatus result);  
+  
+  //set led status 
+  set(LedStatus  val) generates(int32_t  ret);
+ 
+  on();
+  off();
+
+};
